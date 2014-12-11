@@ -7,9 +7,14 @@
 //============================================================================
 
 #include <iostream>
+#include "QUnit.hpp";
+
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	return 0;
+	QUnit::UnitTest qunit(std::cerr, QUnit::normal);
+
+	QUNIT_IS_EQUAL(42, 42);
+
+	return qunit.errors();
 }
