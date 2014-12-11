@@ -8,13 +8,11 @@
 
 #include <iostream>
 #include "QUnit.hpp";
+#include "CustomerTest.h"
 
 using namespace std;
 
 int main() {
-	QUnit::UnitTest qunit(std::cerr, QUnit::normal);
 
-	QUNIT_IS_EQUAL(42, 42);
-
-	return qunit.errors();
+	return CustomerTest(std::cerr).run();
 }
