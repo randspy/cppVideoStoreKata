@@ -1,10 +1,3 @@
-/*
- * Customer.cpp
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #include "Customer.h"
 #include <sstream>
 #include <iomanip>

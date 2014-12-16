@@ -1,10 +1,3 @@
-/*
- * Customer.h
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #ifndef CUSTOMER_H_
 #define CUSTOMER_H_
 

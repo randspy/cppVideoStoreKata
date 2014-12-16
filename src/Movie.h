@@ -1,10 +1,3 @@
-/*
- * Movie.h
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #ifndef MOVIE_H_
 #define MOVIE_H_
 

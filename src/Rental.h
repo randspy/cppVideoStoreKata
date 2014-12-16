@@ -1,10 +1,3 @@
-/*
- * Rental.h
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #ifndef RENTAL_H_
 #define RENTAL_H_
 

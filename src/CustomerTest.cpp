@@ -1,15 +1,6 @@
-/*
- * CustomerTest.cpp
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #include "CustomerTest.h"
 #include "Customer.h"
 #include <iostream>
-
-
 
 CustomerTest::CustomerTest(std::ostream & out, int verboseLevel)
 : qunit(out, verboseLevel){

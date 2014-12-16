@@ -7,7 +7,7 @@
 //============================================================================
 
 #include <iostream>
-#include "QUnit.hpp";
+#include "QUnit.hpp"
 #include "CustomerTest.h"
 
 using namespace std;

@@ -106,12 +106,14 @@ namespace QUnit {
   
         out_ << file << ( ok ? ";" : ":" ) << line << ": ";
         out_ << ( ok ? "OK/" : "FAILED/" ) << func << "(): ";
-        if( compare ) {
-            const std::string cmp = ( result ? "==" : "!=" );
-            out_ << "compare {" << str1 << "} " << cmp << " {" <<  str2 << "} "
-                 << "got {\"" << val1 << "\"} " << cmp << " {\"" << val2 << "\"}";
-        } else {
-            out_ << "evaluate {" << str1 << "} == " << val1;
+        if (!ok){
+			if( compare ) {
+				const std::string cmp = ( result ? "==" : "!=" );
+				out_ << "compare {" << str1 << "} " << cmp << " {" <<  str2 << "} "
+					 << "got {\"" << val1 << "\"} " << cmp << " {\"" << val2 << "\"}";
+			} else {
+				out_ << "evaluate {" << str1 << "} == " << val1;
+			}
         }
         out_ << std::endl;
     }

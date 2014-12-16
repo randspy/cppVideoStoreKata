@@ -1,10 +1,3 @@
-/*
- * CustomerTest.h
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #ifndef CUSTOMERTEST_H_
 #define CUSTOMERTEST_H_
 

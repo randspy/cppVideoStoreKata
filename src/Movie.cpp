@@ -1,10 +1,3 @@
-/*
- * Movie.cpp
- *
- *  Created on: Dec 11, 2014
- *      Author: sgluter
- */
-
 #include "Movie.h"
 
 Movie::Movie(std::string title, int priceCode) {
